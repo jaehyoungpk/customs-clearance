@@ -1,0 +1,24 @@
+# HS Code 변환 시스템 의존성
+
+# 데이터 처리 및 분석
+pandas>=1.5.0
+numpy>=1.21.0
+
+# 머신러닝 및 유사도 계산
+scikit-learn>=1.1.0
+sentence-transformers>=2.2.0
+torch>=1.12.0
+
+# 파일 처리
+openpyxl>=3.0.0  # Excel 파일(.xlsx) 읽기/쓰기
+joblib>=1.2.0    # 캐시 파일 저장/로드
+
+# OpenAI API (선택사항)
+openai>=1.0.0
+
+# 웹 서비스 (FastAPI 서비스용)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# 기타 유틸리티
+regex>=2023.0.0  # 정규표현식 향상
